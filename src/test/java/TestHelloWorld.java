@@ -1,6 +1,8 @@
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
+import com.jenkin.Hello;
+
 
 public class TestHelloWorld {
 
