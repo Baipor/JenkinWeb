@@ -1,5 +1,9 @@
-import org.junit.Test;
+package com;
+
+
 import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
 
 import com.jenkin.Hello;
 
@@ -9,7 +13,7 @@ public class TestHelloWorld {
 	@Test
 	public void test() {
 		Hello hello = new Hello();
-		assertEquals("Hello4", hello.say());
+		assertEquals("Hello", hello.say());
         // TODO: Remove this later
 	}
 
