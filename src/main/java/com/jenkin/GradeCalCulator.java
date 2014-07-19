@@ -26,6 +26,8 @@ public class GradeCalCulator {
 			grade = "A";
 		}else if (score <= 100){
 			grade = "A+";
+		}else{
+			grade = "error";
 		}
 		
 		return grade;

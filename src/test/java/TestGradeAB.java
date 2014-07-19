@@ -14,6 +14,11 @@ public class TestGradeAB {
     }
 	
 	@Test
+	public void test_Grade_A_Plus_101() {
+		assertEquals("error", obj.showGrade(101));
+	}
+	
+	@Test
 	public void test_Grade_A_Plus_100() {
 		assertEquals("A+", obj.showGrade(100));
 	}
