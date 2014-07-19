@@ -12,15 +12,15 @@ public class TestGrade {
 	@Test
 	public void testGrade_F() {		
 		GradeCalCulator cal = new GradeCalCulator();
-		assertEquals("C", cal.showGrade(68));
+		assertEquals("F", cal.showGrade(39));
         // TODO: Remove this later
 	}
 	
-//	@Test
-//	public void testGrade_FPluss() {		
-//		GradeCalCulator cal = new GradeCalCulator();
-//		assertEquals("F+", cal.showGrade(39));
-//        // TODO: Remove this later
-//	}
+	@Test
+	public void testGrade_FPluss() {		
+		GradeCalCulator cal = new GradeCalCulator();
+		assertEquals("F+", cal.showGrade(39));
+        // TODO: Remove this later
+	}
 
 }
