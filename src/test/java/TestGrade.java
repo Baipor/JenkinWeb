@@ -19,7 +19,7 @@ public class TestGrade {
 	@Test
 	public void testGrade_F39() {		
 		GradeCalCulator cal = new GradeCalCulator();
-		assertEquals("F+", cal.showGrade(39));
+		assertEquals("F", cal.showGrade(39));
         // TODO: Remove this later
 	}
 
@@ -27,14 +27,14 @@ public class TestGrade {
 	@Test
 	public void testGrade_FP40() {		
 		GradeCalCulator cal = new GradeCalCulator();
-		assertEquals("F", cal.showGrade(40));
+		assertEquals("F+", cal.showGrade(40));
         // TODO: Remove this later
 	}
 	
 	@Test
 	public void testGrade_FP49() {		
 		GradeCalCulator cal = new GradeCalCulator();
-		assertEquals("F", cal.showGrade(49));
+		assertEquals("F+", cal.showGrade(49));
         // TODO: Remove this later
 	}
 	
