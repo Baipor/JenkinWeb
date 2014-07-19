@@ -1,12 +1,6 @@
-package com;
-
-
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.jenkin.Hello;
-
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 public class TestHelloWorld {
 
