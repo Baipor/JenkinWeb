@@ -1,6 +1,5 @@
-import static org.junit.Assert.*;
-
 import org.junit.Test;
+import static org.junit.Assert.assertEquals;
 
 import com.jenkin.Hello;
 
@@ -11,6 +10,7 @@ public class TestHelloWorld {
 	public void test() {
 		Hello hello = new Hello();
 		assertEquals("Hello", hello.say());
+        // TODO: Remove this later
 	}
 
 }
