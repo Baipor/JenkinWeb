@@ -64,7 +64,8 @@
 						<format>xml</format>
 						<format>html</format>
 					</formats>
-				</configuration>
+                    <check/>
+                </configuration>
 				<executions>
 					<execution>
 						<phase>package</phase>
