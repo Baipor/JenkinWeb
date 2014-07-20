@@ -2,7 +2,16 @@ package com.jenkin;
 
 public class GradeCalCulator {
 	
+	
+	
 	public String showGrade(int score){
+		
+		return showGradeFunction(score);
+	
+	}
+	
+	
+	public String showGradeFunction(int score){
 		
 		String grade = "";
 		
